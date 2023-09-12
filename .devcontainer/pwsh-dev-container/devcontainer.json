@@ -2,5 +2,18 @@
   "image": "mcr.microsoft.com/devcontainers/universal:2",
   "features": {
     "ghcr.io/devcontainers/features/powershell:1": {}
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-vscode.powershell", // PowerShell
+        "ms-vscode.azurecli", // Azure CLI Tools
+        "ms-vscode.azure-account", // Azure Account
+        "msazurermtools.azurerm-vscode-tools", // Azure Resource Manager (ARM) Tools
+        "ms-azuretools.vscode-bicep", // Bicep
+        "ms-azuretools.vscode-azurestorage" // Azure Storage
+        // "ms-dotnettools.dotnet-interactive-vscode // Polyglot noteooks
+      ]
+    }
   }
 }
