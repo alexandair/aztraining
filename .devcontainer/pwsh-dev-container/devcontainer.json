@@ -9,10 +9,12 @@
         "ms-vscode.powershell", // PowerShell
         "ms-vscode.azurecli", // Azure CLI Tools
         "ms-vscode.azure-account", // Azure Account
+        "ms-dotnettools.vscode-dotnet-runtime", // .NET Runtime Install Tool
         "msazurermtools.azurerm-vscode-tools", // Azure Resource Manager (ARM) Tools
         "ms-azuretools.vscode-bicep", // Bicep
+        "ms-azuretools.vscode-azureresourcegroups", // Azure Resources
         "ms-azuretools.vscode-azurestorage" // Azure Storage
-        // "ms-dotnettools.dotnet-interactive-vscode // Polyglot noteooks
+        // "ms-dotnettools.dotnet-interactive-vscode // Polyglot notebooks
       ]
     }
   }
