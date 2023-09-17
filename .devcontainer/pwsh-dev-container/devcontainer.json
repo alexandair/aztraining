@@ -1,6 +1,25 @@
 {
   "image": "mcr.microsoft.com/devcontainers/universal:2",
   "features": {
-    "ghcr.io/devcontainers/features/powershell:1": {}
+    "ghcr.io/devcontainers/features/powershell:1": {},
+    "ghcr.io/devcontainers/features/azure-cli:1": {"installBicep": true},
+    "ghcr.io/devcontainers/features/terraform:1": {}
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-vscode.powershell", // PowerShell
+        // "ms-vscode.azurecli", // Azure CLI Tools; the feature will install it
+        "ms-vscode.azure-account", // Azure Account
+        "ms-dotnettools.vscode-dotnet-runtime", // .NET Runtime Install Tool
+        "msazurermtools.azurerm-vscode-tools", // Azure Resource Manager (ARM) Tools
+        "ms-azuretools.vscode-bicep", // Bicep
+        "ms-azuretools.vscode-azureresourcegroups", // Azure Resources
+        "ms-azuretools.vscode-azurestorage"  // Azure Storage
+        // "HashiCorp.terraform", // ; the feature will install it
+        // "ms-azuretools.vscode-azureterraform", // ; the feature will install it
+        // "ms-dotnettools.dotnet-interactive-vscode // Polyglot notebooks
+      ]
+    }
   }
 }
